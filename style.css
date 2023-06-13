@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+.semester {
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  padding: 20px;
+}
+.team-info {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  height: calc(100vh - 164px);
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-options {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-option {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#dpf {
+  width: 400px;
+}
