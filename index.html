@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IICT 2023-1 Sketch Upload</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="input.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="semester">[정보문화기술입문 2023-1]</div>
+        <div class="title">스케치 GitHub에 올리기</div>
+        <div class="team-info">은진수팀 - 은진수, 은진수, 은진수</div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container">
+        <main></main>
+        <div class="inputs">
+          <div>이미지</div>
+          <div class="image-options">
+            <div class="image-option">
+              <input type="radio" id="Cube" name="img" value="Cube" checked />
+              <label for="img">Cube</label>
+            </div>
+            <div class="image-option">
+              <input type="radio" id="Dance" name="img" value="Dance" />
+              <label for="Dance">Dance</label>
+            </div>
+            <div class="image-option">
+              <input type="radio" id="Horse" name="img" value="Horse" />
+              <label for="Horse">Horse</label>
+            </div>
+          </div>
+
+          <div>Degrees per Frame</div>
+          <div class="image-options">
+            <div>
+              <input
+                type="range"
+                id="dpf"
+                name="dpf"
+                min="0"
+                max="50"
+                value="1"
+                step="1"
+                width="400px"
+              />
+              <label id="dfp_label" for="dpf">1</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
